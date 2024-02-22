@@ -119,7 +119,7 @@ def main():
     # tax = calculate_tax(subtotal)
     # print("Tax for the order is: " + str(tax))
 
-    # items, subtotal = summarize_order(order)
+    items, subtotal = summarize_order(order)
 
 if __name__ == "__main__":
     main()
