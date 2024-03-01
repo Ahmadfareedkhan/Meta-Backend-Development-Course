@@ -122,6 +122,7 @@ def main():
     tax = calculate_tax(subtotal)
     print("Taz for the order is: " + str(tax))
     print("hello")
+    print("new")
 
     items, subtotal = summarize_order(order)
 
