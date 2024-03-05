@@ -125,6 +125,7 @@ def main():
     print("new")
 
     items, subtotal = summarize_order(order)
+    print({1,2,3} & {123})
 
 if __name__ == "__main__":
     main()
