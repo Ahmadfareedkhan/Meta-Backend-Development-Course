@@ -124,6 +124,7 @@ def main():
     print("hello")
     print("new")
 
+    # items, subtotal = summarize_order(order)
     items, subtotal = summarize_order(order)
     print({1,2,3} & {123})
     print({123})
