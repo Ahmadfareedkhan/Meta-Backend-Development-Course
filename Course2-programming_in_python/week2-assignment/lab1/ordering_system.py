@@ -124,6 +124,7 @@ def main():
 
     # items, subtotal = summarize_order(order)
     items, subtotal = summarize_order(order)
+    print(items, subtotal)
    
 if __name__ == "__main__":
     main()
