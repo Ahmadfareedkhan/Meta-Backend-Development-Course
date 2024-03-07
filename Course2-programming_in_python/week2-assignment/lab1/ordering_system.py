@@ -101,8 +101,7 @@ def take_order():
     count = 1
     for i in range(3):
         item = input('Select menu item number ' + str(count) + ' (from 1 to 5): ')
-        if count > 5:
-            print("Please Select Mention Number Only!")
+        
         count += 1
         order.append(menu[int(item)])
     return order
@@ -115,21 +114,16 @@ def main():
     order = take_order()
     print_order(order)
 
-    # subtotal = calculate_subtotal(order)
+    subtotal = calculate_subtotal(order)
     # print("Subtotal for the order is: " + str(subtotal))
     print("Subtotal for order is: " + str(subtotal))
 
-    # tax = calculate_tax(subtotal)
-    # print("Tax for the order is: " + str(tax))
     tax = calculate_tax(subtotal)
-    print("Taz for the order is: " + str(tax))
-    print("hello")
-    print("new")
+    print("Tax for the order is: " + str(tax))
+    
 
     # items, subtotal = summarize_order(order)
     items, subtotal = summarize_order(order)
-    print({1,2,3} & {123})
-    print({123})
-
+   
 if __name__ == "__main__":
     main()
