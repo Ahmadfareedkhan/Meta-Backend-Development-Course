@@ -102,8 +102,11 @@ def take_order():
     for i in range(3):
         item = input('Select menu item number ' + str(count) + ' (from 1 to 5): ')
         item_num = int(item)
-        count += 1
-        order.append(menu[int(item)])
+        if item_num < 1 or item_num > 5:
+            print("Enter valid number!")
+        else:
+            count += 1
+            order.append(menu[int(item)])
     return order
 
 '''
