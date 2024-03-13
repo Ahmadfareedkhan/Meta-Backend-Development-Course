@@ -3,9 +3,9 @@ def isPalindrome(str):
     endIndex = len(str) - 1
 
     for x in str:
-        if str[startIndex] != str[endIndex]:
-            return False
-    return True
+        if str[startIndex] == str[endIndex]:
+            return True
+    return False
         
 
-print(isPalindrome('rerre'))
+print(isPalindrome('rerrer'))
