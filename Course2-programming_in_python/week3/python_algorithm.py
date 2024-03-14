@@ -3,7 +3,7 @@ def isPalindrome(str):
     endIndex = len(str) - 1
 
     for x in str:
-        if str[startIndex] == str[endIndex]:
+        if str[startIndex] != str[endIndex]:
             return True
     return False
         
