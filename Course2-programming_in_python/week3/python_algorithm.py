@@ -4,8 +4,8 @@ def isPalindrome(str):
 
     for x in str:
         if str[startIndex] != str[endIndex]:
-            return True
-    return False
+            return False
+    return True
         
 
-print(isPalindrome('rer'))
+print(isPalindrome('rere'))
