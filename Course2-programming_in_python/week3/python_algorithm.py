@@ -8,4 +8,4 @@ def isPalindrome(str):
     return False
         
 
-print(isPalindrome('rerrer'))
+print(isPalindrome('rer'))
