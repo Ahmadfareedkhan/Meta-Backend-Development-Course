@@ -9,3 +9,4 @@ def isPalindrome(str):
         
 
 print(isPalindrome('rere'))
+print(isPalindrome('Ahmad'))
