@@ -1,4 +1,4 @@
-my_list = [1,2,3,4]
+my_list = [1,2,3]
 
 def add_to_list(lst, item):
     nl = lst.copy()
@@ -7,3 +7,4 @@ def add_to_list(lst, item):
 
 new_list = add_to_list(my_list, 4)
 print(my_list)
+print(new_list)
