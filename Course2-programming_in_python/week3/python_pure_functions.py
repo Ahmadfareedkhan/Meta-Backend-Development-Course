@@ -6,3 +6,4 @@ def add_to_list(lst, item):
     return nl
 
 new_list = add_to_list(my_list, 4)
+print(my_list)
