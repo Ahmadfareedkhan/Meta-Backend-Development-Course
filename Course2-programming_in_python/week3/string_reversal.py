@@ -1,0 +1,2 @@
+# str[start:stop:step]
+
